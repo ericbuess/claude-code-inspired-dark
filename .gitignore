@@ -1,0 +1,11 @@
+# Zed cache and temporary files
+.DS_Store
+*.log
+*.tmp
+
+# Conversations are personal/sensitive
+conversations/
+
+# Any backup files
+*.backup
+*.bak
