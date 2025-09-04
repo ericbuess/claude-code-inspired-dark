@@ -13,18 +13,17 @@ A warm, dark theme for Zed editor inspired by Anthropic's Claude brand colors, f
 
 ### Method 1: Local Installation (Recommended)
 
-1. **Clone or download the theme file**:
+1. **Download or clone this repository**:
    ```bash
-   # If you have this repo cloned
-   cd ~/.config/zed
+   git clone https://github.com/ericbuess/zed-claude-theme.git
    
-   # Or create the themes directory if it doesn't exist
-   mkdir -p ~/.config/zed/themes
+   # Or download the theme file directly
    ```
 
-2. **The theme file is already in place** at:
-   ```
-   ~/.config/zed/themes/claude-code-dark.json
+2. **Copy the theme to your Zed config**:
+   ```bash
+   mkdir -p ~/.config/zed/themes
+   cp themes/claude-code-dark.json ~/.config/zed/themes/
    ```
 
 3. **Activate the theme** in Zed:
@@ -59,30 +58,6 @@ The theme uses distinct colors for different code elements:
 - **Comments**: Gray italic (#7F7F7F)
 - **Properties**: Light salmon (#FFA07A)
 - **Constants**: Orange (#FFA500)
-
-## Theme Overrides (Optional)
-
-For additional customization, add to your `settings.json`:
-
-```json
-{
-  "experimental.theme_overrides": {
-    "syntax": {
-      "keyword": {
-        "color": "#FF6B35",
-        "font_weight": 700
-      },
-      "string": {
-        "color": "#7FE068"
-      },
-      "function": {
-        "color": "#FFD700"
-      }
-      // Add more overrides as needed
-    }
-  }
-}
-```
 
 ## Terminal Color Configuration
 

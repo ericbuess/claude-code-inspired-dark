@@ -3,8 +3,12 @@
 *.log
 *.tmp
 
-# Conversations are personal/sensitive
+# Personal Zed configuration
+settings.json
+
+# Zed's internal directories
 conversations/
+prompts/
 
 # Any backup files
 *.backup
