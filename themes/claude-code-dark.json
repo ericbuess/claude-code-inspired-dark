@@ -172,7 +172,7 @@
           "font_weight": 600
         },
         "variable": {
-          "color": "#F5E6D3"
+          "color": "#E6B89C"
         },
         "variable.builtin": {
           "color": "#E67D22"
@@ -185,10 +185,10 @@
           "color": "#FFB38A"
         },
         "operator": {
-          "color": "#56B6C2"
+          "color": "#FF69B4"
         },
         "punctuation": {
-          "color": "#ABB2BF"
+          "color": "#8B7355"
         },
         "punctuation.bracket": {
           "color": "#F5E6D3"
@@ -209,7 +209,7 @@
           "color": "#E67D22"
         },
         "property": {
-          "color": "#E06C75"
+          "color": "#FFA07A"
         },
         "embedded": {
           "color": "#98C379"
