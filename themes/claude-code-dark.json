@@ -109,7 +109,7 @@
       },
       "syntax": {
         "comment": {
-          "color": "#8A7A6A",
+          "color": "#7F7F7F",
           "font_style": "italic"
         },
         "comment.doc": {
@@ -117,14 +117,14 @@
           "font_style": "italic"
         },
         "keyword": {
-          "color": "#E67D22",
-          "font_weight": 600
+          "color": "#FF6B35",
+          "font_weight": 700
         },
         "keyword.directive": {
           "color": "#FFB38A"
         },
         "type": {
-          "color": "#61AFEF"
+          "color": "#00CED1"
         },
         "type.builtin": {
           "color": "#71BFFF"
@@ -140,7 +140,7 @@
           "font_weight": 600
         },
         "string": {
-          "color": "#98C379"
+          "color": "#7FE068"
         },
         "string.escape": {
           "color": "#56B6C2"
@@ -155,10 +155,10 @@
           "color": "#FFB38A"
         },
         "number": {
-          "color": "#FF9966"
+          "color": "#FF69B4"
         },
         "function": {
-          "color": "#FFB38A"
+          "color": "#FFD700"
         },
         "function.builtin": {
           "color": "#E67D22"
