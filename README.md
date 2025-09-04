@@ -49,12 +49,18 @@ Full ANSI color palette with warm-tinted variants matching the Claude aesthetic.
 
 ## Installation
 
-The theme is automatically loaded from:
-```
-~/.config/zed/themes/claude-code-dark.json
+1. Clone this repository or download the theme file:
+```bash
+git clone https://github.com/ericbuess/zed-claude-theme.git
 ```
 
-To use it, update your `settings.json`:
+2. Copy the theme to your Zed configuration:
+```bash
+mkdir -p ~/.config/zed/themes
+cp themes/claude-code-dark.json ~/.config/zed/themes/
+```
+
+3. Update your `settings.json`:
 ```json
 {
   "theme": {
@@ -76,18 +82,23 @@ Example: `#1A1614E6` → `#1A1614CC` for more transparency
 
 ### Desktop Wallpaper
 For best results, use a solid or gradient orange background:
-- Solid: `#E67D22` or `#E9762C`
-- Gradient: Orange to dark orange/brown
+- Solid: `#D97757` (Claude's actual brand coral)
+- Alternative: `#E67D22` (theme accent orange)
+- Gradient: Coral to dark orange/brown
 - Avoid busy patterns that might show through
+
+### macOS System Settings
+For optimal visual experience with the Claude theme:
+1. **Reduce Motion**: Turn OFF in System Settings → Accessibility → Display
+   - Allows smooth theme transitions and hover effects
+2. **Cursor Colors**: Match cursor to theme colors
+   - System Settings → Accessibility → Display → Pointer
+   - Set to match theme accent colors
 
 ## File Structure
 ```
-.config/zed/
-├── themes/
-│   └── claude-code-dark.json   # Theme definition
-├── settings.json                # Zed configuration
-├── test-theme.js               # Syntax highlighting test
-└── README.md                   # This file
+themes/
+└── claude-code-dark.json   # Theme definition
 ```
 
 ## Version Control
