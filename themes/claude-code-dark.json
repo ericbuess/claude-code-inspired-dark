@@ -109,129 +109,129 @@
       },
       "syntax": {
         "comment": {
-          "color": "#7F7F7F",
+          "color": "#7F7F7FFF",
           "font_style": "italic"
         },
         "comment.doc": {
-          "color": "#A08060",
+          "color": "#A08060FF",
           "font_style": "italic"
         },
         "keyword": {
-          "color": "#FF6B35",
+          "color": "#FF6B35FF",
           "font_weight": 700
         },
         "keyword.directive": {
-          "color": "#FFB38A"
+          "color": "#FFB38AFF"
         },
         "type": {
-          "color": "#00CED1"
+          "color": "#00CED1FF"
         },
         "type.builtin": {
-          "color": "#71BFFF"
+          "color": "#71BFFFFF"
         },
         "constant": {
-          "color": "#FFA500"
+          "color": "#FFA500FF"
         },
         "constant.builtin": {
-          "color": "#FF9966"
+          "color": "#FF9966FF"
         },
         "constant.builtin.boolean": {
-          "color": "#E67D22",
+          "color": "#E67D22FF",
           "font_weight": 600
         },
         "string": {
-          "color": "#7FE068"
+          "color": "#7FE068FF"
         },
         "string.escape": {
-          "color": "#56B6C2"
+          "color": "#56B6C2FF"
         },
         "string.regex": {
-          "color": "#56B6C2"
+          "color": "#56B6C2FF"
         },
         "string.special": {
-          "color": "#A8D389"
+          "color": "#A8D389FF"
         },
         "string.special.symbol": {
-          "color": "#FFB38A"
+          "color": "#FFB38AFF"
         },
         "number": {
-          "color": "#FF69B4"
+          "color": "#FF69B4FF"
         },
         "function": {
-          "color": "#FFD700"
+          "color": "#FFD700FF"
         },
         "function.builtin": {
-          "color": "#E67D22"
+          "color": "#E67D22FF"
         },
         "function.method": {
-          "color": "#FFB38A",
+          "color": "#FFB38AFF",
           "font_style": "italic"
         },
         "function.special": {
-          "color": "#E67D22",
+          "color": "#E67D22FF",
           "font_weight": 600
         },
         "variable": {
-          "color": "#E6B89C"
+          "color": "#E6B89CFF"
         },
         "variable.builtin": {
-          "color": "#E67D22"
+          "color": "#E67D22FF"
         },
         "variable.parameter": {
-          "color": "#C4A584",
+          "color": "#C4A584FF",
           "font_style": "italic"
         },
         "variable.special": {
-          "color": "#FFB38A"
+          "color": "#FFB38AFF"
         },
         "operator": {
-          "color": "#FF69B4"
+          "color": "#FF69B4FF"
         },
         "punctuation": {
-          "color": "#8B7355"
+          "color": "#8B7355FF"
         },
         "punctuation.bracket": {
-          "color": "#F5E6D3"
+          "color": "#F5E6D3FF"
         },
         "punctuation.delimiter": {
-          "color": "#ABB2BF"
+          "color": "#ABB2BFFF"
         },
         "punctuation.special": {
-          "color": "#E67D22"
+          "color": "#E67D22FF"
         },
         "attribute": {
-          "color": "#E5C07B"
+          "color": "#E5C07BFF"
         },
         "label": {
-          "color": "#61AFEF"
+          "color": "#61AFEFFF"
         },
         "constructor": {
-          "color": "#E67D22"
+          "color": "#E67D22FF"
         },
         "property": {
-          "color": "#FFA07A"
+          "color": "#FFA07AFF"
         },
         "embedded": {
-          "color": "#98C379"
+          "color": "#98C379FF"
         },
         "title": {
-          "color": "#E67D22",
+          "color": "#E67D22FF",
           "font_weight": 700
         },
         "emphasis": {
-          "color": "#F5E6D3",
+          "color": "#F5E6D3FF",
           "font_style": "italic"
         },
         "emphasis.strong": {
-          "color": "#F5E6D3",
+          "color": "#F5E6D3FF",
           "font_weight": 700
         },
         "link_text": {
-          "color": "#61AFEF",
+          "color": "#61AFEFFF",
           "font_style": "underline"
         },
         "link_uri": {
-          "color": "#56B6C2",
+          "color": "#56B6C2FF",
           "font_style": "underline"
         }
       },
