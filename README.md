@@ -1,13 +1,13 @@
 # Claude Code Dark Theme for Zed
 
-A custom dark theme for Zed editor inspired by Claude and Anthropic's brand colors, designed specifically for VM environments with visual distinction.
+A custom dark theme for Zed editor inspired by Claude and Anthropic's brand colors with semi-transparent backgrounds.
 
 ## Features
 
 ### Transparency & Environment Integration
 - **Semi-transparent backgrounds**: Editor backgrounds use 85-92% opacity, allowing your desktop wallpaper to subtly tint the interface
-- **Orange wallpaper integration**: Designed to work with Claude's signature orange (#E67D22) desktop background for a cohesive look
-- **VM distinction**: Instantly recognizable when switching between host and VM macOS environments
+- **Wallpaper integration**: Designed to work with Claude's coral (#D97757) or orange (#E67D22) desktop background for a cohesive look
+- **Window borders**: Use macOS window tiling (drag to top-middle of screen) to add a small border around Zed, allowing the background to show through on all sides
 
 ### Color Palette
 
@@ -89,9 +89,13 @@ For best results, use a solid or gradient orange background:
 
 ### macOS System Settings
 For optimal visual experience with the Claude theme:
-1. **Reduce Motion**: Turn OFF in System Settings → Accessibility → Display
+1. **Window Tiling**: Drag Zed window to top-middle of screen
+   - Creates a small border around the window
+   - Allows wallpaper to show through on all sides
+   - Enhances the transparency effect
+2. **Reduce Motion**: Turn OFF in System Settings → Accessibility → Display
    - Allows smooth theme transitions and hover effects
-2. **Cursor Colors**: Match cursor to theme colors
+3. **Cursor Colors**: Match cursor to theme colors
    - System Settings → Accessibility → Display → Pointer
    - Set to match theme accent colors
 
