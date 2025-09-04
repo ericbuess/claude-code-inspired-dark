@@ -2,6 +2,8 @@
 
 A custom dark theme for Zed editor inspired by Claude and Anthropic's brand colors with semi-transparent backgrounds.
 
+![Claude Code Dark Theme Preview](screenshot.png)
+
 ## Features
 
 ### Transparency & Environment Integration
