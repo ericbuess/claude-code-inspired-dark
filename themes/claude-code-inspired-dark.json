@@ -29,8 +29,8 @@
                 "ghost_element.disabled": "#0F0D0B",
                 "border": "#4A3A2A",
                 "border.variant": "#5A4A3A",
-                "border.focused": "#E67D22",
-                "border.selected": "#E67D22",
+                "border.focused": "#333333",
+                "border.selected": "#444444",
                 "border.transparent": "transparent",
                 "border.disabled": "#3A2A1A",
                 "text": "#F5E6D3",
@@ -41,7 +41,7 @@
                 "surface.background": "#0F0D0B",
                 "elevated_surface.background": "#141210",
                 "panel.background": "#000000",
-                "panel.focused_border": "#E67D2244",
+                "panel.focused_border": "#333333",
                 "background": "#000000",
                 "status_bar.background": "#000000",
                 "title_bar.background": "#000000",
@@ -184,10 +184,10 @@
                         "color": "#ddb599"
                     },
                     "constructor": {
-                        "color": "#B8875F"
+                        "color": "#CE6246"
                     },
                     "embedded": {
-                        "color": "#B8875F"
+                        "color": "#CE6246"
                     },
                     "emphasis": {
                         "color": "#F5E6D3",
@@ -211,21 +211,21 @@
                         "font_style": "italic"
                     },
                     "function.special": {
-                        "color": "#B8875F",
+                        "color": "#CE6246",
                         "font_weight": 600
                     },
                     "hint": {
                         "color": "#C4A7E7"
                     },
                     "keyword": {
-                        "color": "#B8875F",
+                        "color": "#CE6246",
                         "font_weight": 700
                     },
                     "keyword.directive": {
                         "color": "#ddb599"
                     },
                     "label": {
-                        "color": "#B8875F"
+                        "color": "#CE6246"
                     },
                     "link_text": {
                         "color": "#61AFEF",
@@ -245,7 +245,7 @@
                         "color": "#908CAA"
                     },
                     "preproc": {
-                        "color": "#B8875F"
+                        "color": "#CE6246"
                     },
                     "primary": {
                         "color": "#C4A7E7"
@@ -263,7 +263,7 @@
                         "color": "#ABB2BF"
                     },
                     "punctuation.list_marker": {
-                        "color": "#B8875F",
+                        "color": "#CE6246",
                         "font_weight": 700
                     },
                     "punctuation.special": {
@@ -285,13 +285,13 @@
                         "color": "#e1bfa5"
                     },
                     "tag": {
-                        "color": "#B8875F"
+                        "color": "#CE6246"
                     },
                     "text.literal": {
                         "color": "#7FE068"
                     },
                     "title": {
-                        "color": "#B8875F",
+                        "color": "#CE6246",
                         "font_weight": 700
                     },
                     "type": {
