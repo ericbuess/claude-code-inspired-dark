@@ -8,8 +8,8 @@
             "name": "Claude Code Inspired Dark",
             "style": {
                 "editor.foreground": "#F5E6D3",
-                "editor.background": "#1A1614",
-                "editor.gutter.background": "#1A1614",
+                "editor.background": "#000000",
+                "editor.gutter.background": "#000000",
                 "editor.active_line.background": "#1F1B18",
                 "editor.line_number": "#6A5A4A",
                 "editor.active_line_number": "#E67D22",
@@ -40,21 +40,21 @@
                 "text.accent": "#E67D22",
                 "surface.background": "#0F0D0B",
                 "elevated_surface.background": "#141210",
-                "panel.background": "#1A1614",
+                "panel.background": "#000000",
                 "panel.focused_border": "#E67D2244",
-                "background": "#1A1614",
-                "status_bar.background": "#1A1614",
-                "title_bar.background": "#1A1614",
-                "title_bar.inactive_background": "#1A1614",
+                "background": "#000000",
+                "status_bar.background": "#000000",
+                "title_bar.background": "#000000",
+                "title_bar.inactive_background": "#000000",
                 "toolbar.background": "#0F0D0B",
-                "tab_bar.background": "#1A1614",
+                "tab_bar.background": "#000000",
                 "tab.inactive_background": "#0F0D0B",
                 "tab.active_background": "#141210",
                 "drop_target.background": "#E67D2222",
                 "scrollbar.thumb.background": "#4A3A2A",
                 "scrollbar.thumb.border": "#4A3A2A",
                 "scrollbar.thumb.hover_background": "#5A4A3A",
-                "scrollbar.track.background": "#1A1614",
+                "scrollbar.track.background": "#000000",
                 "scrollbar.track.border": "#2D2314",
                 "element.background": "#0F0D0B",
                 "element.hover": "#141210",
@@ -81,7 +81,7 @@
                 "conflict.background": "#3D3A2A",
                 "conflict.border": "#E5C07B",
                 "ignored": "#6A5A4A",
-                "ignored.background": "#1A1614",
+                "ignored.background": "#000000",
                 "ignored.border": "#2D2314",
                 "renamed": "#61AFEF",
                 "renamed.background": "#2A3A4D",
@@ -105,9 +105,9 @@
                 "predictive.background": "#2A283E",
                 "predictive.border": "#908CAA",
                 "unreachable": "#6A5A4A",
-                "unreachable.background": "#1A1614",
+                "unreachable.background": "#000000",
                 "unreachable.border": "#2D2314",
-                "terminal.background": "#1A1614",
+                "terminal.background": "#000000",
                 "terminal.foreground": "#F5E6D3",
                 "terminal.ansi.black": "#2D2314",
                 "terminal.ansi.red": "#E06C75",
@@ -184,10 +184,10 @@
                         "color": "#ddb599"
                     },
                     "constructor": {
-                        "color": "#d4a37f"
+                        "color": "#B8875F"
                     },
                     "embedded": {
-                        "color": "#d4a37f"
+                        "color": "#B8875F"
                     },
                     "emphasis": {
                         "color": "#F5E6D3",
@@ -211,21 +211,21 @@
                         "font_style": "italic"
                     },
                     "function.special": {
-                        "color": "#d4a37f",
+                        "color": "#B8875F",
                         "font_weight": 600
                     },
                     "hint": {
                         "color": "#C4A7E7"
                     },
                     "keyword": {
-                        "color": "#d4a37f",
+                        "color": "#B8875F",
                         "font_weight": 700
                     },
                     "keyword.directive": {
                         "color": "#ddb599"
                     },
                     "label": {
-                        "color": "#d4a37f"
+                        "color": "#B8875F"
                     },
                     "link_text": {
                         "color": "#61AFEF",
@@ -245,7 +245,7 @@
                         "color": "#908CAA"
                     },
                     "preproc": {
-                        "color": "#d4a37f"
+                        "color": "#B8875F"
                     },
                     "primary": {
                         "color": "#C4A7E7"
@@ -263,7 +263,7 @@
                         "color": "#ABB2BF"
                     },
                     "punctuation.list_marker": {
-                        "color": "#d4a37f",
+                        "color": "#B8875F",
                         "font_weight": 700
                     },
                     "punctuation.special": {
@@ -285,13 +285,13 @@
                         "color": "#e1bfa5"
                     },
                     "tag": {
-                        "color": "#d4a37f"
+                        "color": "#B8875F"
                     },
                     "text.literal": {
                         "color": "#7FE068"
                     },
                     "title": {
-                        "color": "#d4a37f",
+                        "color": "#B8875F",
                         "font_weight": 700
                     },
                     "type": {
