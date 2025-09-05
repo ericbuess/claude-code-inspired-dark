@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
-  "name": "Claude Code Dark",
-  "author": "Eric Buess & Claude",
+  "name": "Claude Code Inspired Dark",
+  "author": "Eric Buess",
   "themes": [
     {
-      "name": "Claude Code Dark",
+      "name": "Claude Code Inspired Dark",
       "appearance": "dark",
       "style": {
         "background": "#1A1614E6",

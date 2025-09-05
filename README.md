@@ -1,4 +1,4 @@
-# Claude Code Dark Theme for Zed
+# Claude Code Inspired Dark Theme for Zed
 
 A custom dark theme for Zed editor inspired by Claude and Anthropic's brand colors with semi-transparent backgrounds.
 
@@ -63,7 +63,7 @@ git clone https://github.com/ericbuess/zed-claude-theme.git
 2. Copy the theme to your Zed configuration:
 ```bash
 mkdir -p ~/.config/zed/themes
-cp themes/claude-code-dark.json ~/.config/zed/themes/
+cp themes/claude-code-inspired-dark.json ~/.config/zed/themes/
 ```
 
 3. Update your `settings.json` with BOTH theme selection AND syntax overrides:
@@ -71,7 +71,7 @@ cp themes/claude-code-dark.json ~/.config/zed/themes/
 {
   "theme": {
     "mode": "dark",
-    "dark": "Claude Code Dark"
+    "dark": "Claude Code Inspired Dark"
   },
   "experimental.theme_overrides": {
     "syntax": {

@@ -1,5 +1,5 @@
-id = "claude-code-dark"
-name = "Claude Code Dark"
+id = "claude-code-inspired-dark"
+name = "Claude Code Inspired Dark"
 description = "A warm dark theme inspired by Claude and Anthropic's brand colors with semi-transparent backgrounds"
 version = "1.0.0"
 schema_version = 1
