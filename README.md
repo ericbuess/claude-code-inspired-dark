@@ -49,47 +49,34 @@ A custom dark theme for Zed editor inspired by Claude and Anthropic's brand colo
 ### Terminal Colors
 Full ANSI color palette with warm-tinted variants matching the Claude aesthetic.
 
-## Getting Syntax Highlighting to Work
-
-In my testing, I found that syntax highlighting requires using `experimental.theme_overrides` in your settings.json. Without these overrides, only the UI elements (panels, backgrounds, borders) were styled, while code remained gray. This is how I got the full theme working with syntax colors.
 
 ## Installation
 
-1. Clone this repository or download the theme file:
+### Option 1: Install from Zed Extension Registry (Coming Soon)
+Once published, you'll be able to install directly from Zed:
+1. Open Zed's command palette (`cmd-shift-p` on macOS)
+2. Type "Extensions" and select "zed: extensions"
+3. Search for "Claude Code Inspired Dark"
+4. Click Install
+
+### Option 2: Install as Dev Extension
+1. Clone this repository:
 ```bash
-git clone https://github.com/ericbuess/zed-claude-theme.git
+git clone https://github.com/ericbuess/claude-code-inspired-dark.git ~/Projects/claude-code-theme
 ```
 
-2. Copy the theme to your Zed configuration:
+2. Create a symlink in Zed's dev extensions folder:
 ```bash
-mkdir -p ~/.config/zed/themes
-cp themes/claude-code-inspired-dark.json ~/.config/zed/themes/
+mkdir -p ~/Library/Application\ Support/Zed/extensions/dev
+ln -sfn ~/Projects/claude-code-theme ~/Library/Application\ Support/Zed/extensions/dev/claude-code-inspired-dark
 ```
 
-3. Update your `settings.json` with BOTH theme selection AND syntax overrides:
+3. Restart Zed and select the theme:
 ```json
 {
   "theme": {
     "mode": "dark",
     "dark": "Claude Code Inspired Dark"
-  },
-  "experimental.theme_overrides": {
-    "syntax": {
-      "keyword": { "color": "#FF6B35", "font_weight": 700 },
-      "string": { "color": "#7FE068" },
-      "function": { "color": "#FFD700" },
-      "comment": { "color": "#7F7F7F", "font_style": "italic" },
-      "number": { "color": "#FF69B4" },
-      "variable": { "color": "#E6B89C" },
-      "type": { "color": "#00CED1" },
-      "operator": { "color": "#FF69B4" },
-      "property": { "color": "#FFA07A" },
-      "constant": { "color": "#FFA500" },
-      "punctuation": { "color": "#8B7355" },
-      "punctuation.bracket": { "color": "#F5E6D3" },
-      "attribute": { "color": "#E5C07B" },
-      "constructor": { "color": "#E67D22" }
-    }
   }
 }
 ```
@@ -125,13 +112,18 @@ For optimal visual experience with the Claude theme:
 
 ## File Structure
 ```
-themes/
-└── claude-code-dark.json   # Theme definition
+.
+├── extension.toml           # Extension manifest
+├── themes/
+│   └── claude-code-inspired-dark.json   # Theme definition
+├── screenshot.png           # Theme preview
+├── README.md               # This file
+└── LICENSE                 # MIT license
 ```
 
-## Version Control
-This configuration is tracked in a private GitHub repository:
-https://github.com/ericbuess/zed-claude-theme
+## Repository
+This theme is open source and available at:
+https://github.com/ericbuess/claude-code-inspired-dark
 
 ## Credits
 Created with Claude's assistance for optimal VM distinction and brand consistency.
