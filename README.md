@@ -49,9 +49,11 @@ A custom dark theme for Zed editor inspired by Claude and Anthropic's brand colo
 ### Terminal Colors
 Full ANSI color palette with warm-tinted variants matching the Claude aesthetic.
 
-## ⚠️ Important Note
+## ⚠️ Critical Requirement: Theme Overrides
 
-Due to Zed limitations, local themes can only style UI elements, not syntax highlighting. You must add `experimental.theme_overrides` to your settings.json for syntax colors to work.
+**Zed Limitation**: Custom themes (local files and dev extensions) cannot control syntax highlighting. Only Zed's built-in themes have this capability. 
+
+**The `experimental.theme_overrides` in step 3 below is REQUIRED for syntax colors to work.** Without it, you'll only get UI styling (panels, backgrounds, borders) but all code will remain gray.
 
 ## Installation
 
