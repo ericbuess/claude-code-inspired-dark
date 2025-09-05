@@ -49,6 +49,10 @@ A custom dark theme for Zed editor inspired by Claude and Anthropic's brand colo
 ### Terminal Colors
 Full ANSI color palette with warm-tinted variants matching the Claude aesthetic.
 
+## ⚠️ Important Note
+
+Due to Zed limitations, local themes can only style UI elements, not syntax highlighting. You must add `experimental.theme_overrides` to your settings.json for syntax colors to work.
+
 ## Installation
 
 1. Clone this repository or download the theme file:
@@ -62,12 +66,30 @@ mkdir -p ~/.config/zed/themes
 cp themes/claude-code-dark.json ~/.config/zed/themes/
 ```
 
-3. Update your `settings.json`:
+3. Update your `settings.json` with BOTH theme selection AND syntax overrides:
 ```json
 {
   "theme": {
     "mode": "dark",
     "dark": "Claude Code Dark"
+  },
+  "experimental.theme_overrides": {
+    "syntax": {
+      "keyword": { "color": "#FF6B35", "font_weight": 700 },
+      "string": { "color": "#7FE068" },
+      "function": { "color": "#FFD700" },
+      "comment": { "color": "#7F7F7F", "font_style": "italic" },
+      "number": { "color": "#FF69B4" },
+      "variable": { "color": "#E6B89C" },
+      "type": { "color": "#00CED1" },
+      "operator": { "color": "#FF69B4" },
+      "property": { "color": "#FFA07A" },
+      "constant": { "color": "#FFA500" },
+      "punctuation": { "color": "#8B7355" },
+      "punctuation.bracket": { "color": "#F5E6D3" },
+      "attribute": { "color": "#E5C07B" },
+      "constructor": { "color": "#E67D22" }
+    }
   }
 }
 ```
