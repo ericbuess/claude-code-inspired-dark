@@ -27,12 +27,12 @@
                 "ghost_element.selected": "#1A1614",
                 "ghost_element.background": "transparent",
                 "ghost_element.disabled": "#0F0D0B",
-                "border": "#4A3A2A",
-                "border.variant": "#5A4A3A",
+                "border": "#222222",
+                "border.variant": "#333333",
                 "border.focused": "#333333",
                 "border.selected": "#444444",
                 "border.transparent": "transparent",
-                "border.disabled": "#3A2A1A",
+                "border.disabled": "#111111",
                 "text": "#F5E6D3",
                 "text.muted": "#C4A584",
                 "text.placeholder": "#8A7A6A",
@@ -251,7 +251,7 @@
                         "color": "#C4A7E7"
                     },
                     "property": {
-                        "color": "#e1bfa5"
+                        "color": "#CE6246"
                     },
                     "punctuation": {
                         "color": "#8B7355"
@@ -270,7 +270,7 @@
                         "color": "#d8ac8c"
                     },
                     "string": {
-                        "color": "#10B981"
+                        "color": "#d4a37f"
                     },
                     "string.escape": {
                         "color": "#56B6C2"
