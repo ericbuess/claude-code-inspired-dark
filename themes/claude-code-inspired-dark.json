@@ -10,7 +10,7 @@
                 "editor.foreground": "#F5E6D3",
                 "editor.background": "#1A1614",
                 "editor.gutter.background": "#1A1614",
-                "editor.active_line.background": "#2D2314",
+                "editor.active_line.background": "#1F1B18",
                 "editor.line_number": "#6A5A4A",
                 "editor.active_line_number": "#E67D22",
                 "editor.indent_guide": "#6A5A4A88",
@@ -20,13 +20,13 @@
                 "editor.active_wrap_guide": "#4A3A2A",
                 "editor.document_highlight.read_background": "#9CCFD81A",
                 "editor.document_highlight.write_background": "#6A5A4A66",
-                "editor.subheader.background": "#2D2314",
-                "editor.highlighted_line.background": "#2D2314",
+                "editor.subheader.background": "#0F0D0B",
+                "editor.highlighted_line.background": "#1F1B18",
                 "ghost_element.active": "#908CAA",
-                "ghost_element.hover": "#3D2A1A",
-                "ghost_element.selected": "#4D3A2A",
+                "ghost_element.hover": "#141210",
+                "ghost_element.selected": "#1A1614",
                 "ghost_element.background": "transparent",
-                "ghost_element.disabled": "#2D2314",
+                "ghost_element.disabled": "#0F0D0B",
                 "border": "#4A3A2A",
                 "border.variant": "#5A4A3A",
                 "border.focused": "#E67D22",
@@ -38,29 +38,29 @@
                 "text.placeholder": "#8A7A6A",
                 "text.disabled": "#6A5A4A",
                 "text.accent": "#E67D22",
-                "surface.background": "#2D2314",
-                "elevated_surface.background": "#3D2A1A",
+                "surface.background": "#0F0D0B",
+                "elevated_surface.background": "#141210",
                 "panel.background": "#1A1614",
                 "panel.focused_border": "#E67D2244",
                 "background": "#1A1614",
                 "status_bar.background": "#1A1614",
                 "title_bar.background": "#1A1614",
                 "title_bar.inactive_background": "#1A1614",
-                "toolbar.background": "#2D2314",
+                "toolbar.background": "#0F0D0B",
                 "tab_bar.background": "#1A1614",
-                "tab.inactive_background": "#2D2314",
-                "tab.active_background": "#3D2A1A",
+                "tab.inactive_background": "#0F0D0B",
+                "tab.active_background": "#141210",
                 "drop_target.background": "#E67D2222",
                 "scrollbar.thumb.background": "#4A3A2A",
                 "scrollbar.thumb.border": "#4A3A2A",
                 "scrollbar.thumb.hover_background": "#5A4A3A",
                 "scrollbar.track.background": "#1A1614",
                 "scrollbar.track.border": "#2D2314",
-                "element.background": "#2D2314",
-                "element.hover": "#3D2A1A",
-                "element.active": "#4D3A2A",
-                "element.selected": "#5D4A3A",
-                "element.disabled": "#2D2314",
+                "element.background": "#0F0D0B",
+                "element.hover": "#141210",
+                "element.active": "#1A1614",
+                "element.selected": "#1F1B18",
+                "element.disabled": "#0F0D0B",
                 "icon": "#F5E6D3",
                 "icon.muted": "#A08060",
                 "icon.disabled": "#6A5A4A",
@@ -187,7 +187,7 @@
                         "color": "#d4a37f"
                     },
                     "embedded": {
-                        "color": "#98C379"
+                        "color": "#d4a37f"
                     },
                     "emphasis": {
                         "color": "#F5E6D3",
@@ -225,7 +225,7 @@
                         "color": "#ddb599"
                     },
                     "label": {
-                        "color": "#61AFEF"
+                        "color": "#d4a37f"
                     },
                     "link_text": {
                         "color": "#61AFEF",
@@ -245,7 +245,7 @@
                         "color": "#908CAA"
                     },
                     "preproc": {
-                        "color": "#F6C177"
+                        "color": "#d4a37f"
                     },
                     "primary": {
                         "color": "#C4A7E7"
